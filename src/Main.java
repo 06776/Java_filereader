@@ -28,9 +28,7 @@ public class Main {
             try {
               totalMoneyForSzolnok += Integer.parseInt(columns[4].trim());
             } catch (NumberFormatException e) {
-              System.out.println(
-                "Hiba: Nem sikerült konvertálni az összeget egész számmá."
-              );
+              System.out.println("A datumok nem megfeleloen lettek megadva");
             }
           }
         }
