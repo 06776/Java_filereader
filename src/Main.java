@@ -29,17 +29,16 @@ public class Main {
               totalMoneyForSzolnok += Integer.parseInt(columns[4].trim());
             } catch (NumberFormatException e) {
               System.out.println(
-                "Hiba tortent a datumok kezelese soran | A datumok nem megfeleloen lettek megadva"
+                "Hiba: Nem sikerült konvertálni az összeget egész számmá."
               );
             }
           }
         }
+        System.out.println((i + 1) + "." + " sor" + " tartalma: " + line);
       }
 
-      System.out.println(
-        "A Szolnokiak fizetese: " + totalMoneyForSzolnok + " Ft"
-      );
-      System.out.println("'Written by Hajdara Patrik | 2024'");
+      System.out.println("\n A Szolnokiak fizetese: " + totalMoneyForSzolnok);
+      System.out.println("\n 'Written by Hajdara Patrik | 2024'");
       scanner.close();
     } catch (Exception e) {
       e.printStackTrace();
