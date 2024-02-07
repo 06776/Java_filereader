@@ -4,6 +4,4 @@ Fájl beolvasó program Java nyelven, mely egy TXT állományból olvassa be az 
 
 ## Created by
 
-&copy; 2024 | Hajdara Patrik
-BZSH Külkereskedelmi Technikum
-Minden jog fenntartva
+&copy; 2024 | Hajdara Patrik <br> BZSH Külkereskedelmi Technikum <br> Minden jog fenntartva
