@@ -35,7 +35,9 @@ public class Main {
         System.out.println((i + 1) + "." + " sor" + " tartalma: " + line);
       }
 
-      System.out.println("\n A Szolnokiak fizetese: " + totalMoneyForSzolnok);
+      System.out.println(
+        "\n A Szolnokiak fizetese: " + totalMoneyForSzolnok + " Ft"
+      );
       System.out.println("\n 'Written by Hajdara Patrik | 2024'");
       scanner.close();
     } catch (Exception e) {
